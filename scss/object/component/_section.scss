@@ -1,0 +1,12 @@
+.c-section {
+    margin: 0 auto 130px;
+    padding: 0 4%;
+    text-align: center;
+    max-width: 960px;
+    font-size: 0.9rem;
+
+    &__heading {
+        margin-bottom: 80px;
+        font-size: 1.5rem;
+    }
+}

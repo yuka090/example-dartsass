@@ -1,0 +1,52 @@
+@use "../../mixin";
+
+.p-contact {
+    &__info {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include mixin.breakpoint( iphone ) {
+            flex-direction: column;
+        }
+
+        dt {
+            width: 15%;
+            text-align: left;
+        }
+
+        dd {
+            width: 85%;
+            margin-bottom: 10px;
+
+            @include mixin.breakpoint( iphone ) {
+                width: 100%;
+            }
+
+            input,textarea {
+                width: 100%;
+                border: solid 1px #c8c8c8;
+                padding: 10px;
+            }
+
+            textarea {
+                height: 10rem;
+            }
+        }
+    }
+
+    &__btn {
+        input {
+            border: solid 1px #24292e;
+            background-color: #24292e;
+            color: #fff;
+            padding: 15px 0;
+            margin-top: 20px;
+            width: 200px;
+        }
+
+        :hover {
+            background-color: #fff;
+            color: #24292e;
+        }
+    }
+}

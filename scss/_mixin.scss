@@ -1,0 +1,7 @@
+@mixin breakpoint( $point ) {
+	@if $point == iphone {
+		@media ( max-width: 600px ) {
+			@content ;
+		}
+	}
+}

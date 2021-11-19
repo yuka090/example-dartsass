@@ -1,0 +1,35 @@
+@use "../../mixin";
+
+.p-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 270px;
+
+
+    &__logo {
+        line-height: 286px;
+    }
+
+    &__nav {
+        font-size: 0.9rem;
+
+        ul {
+            display: flex;
+
+            li {
+                padding: 0 15px;
+                :hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+
+    @include mixin.breakpoint( iphone ) {
+        height: 100px;
+        flex-direction: column;
+        padding: 2.5%;
+    }
+
+}

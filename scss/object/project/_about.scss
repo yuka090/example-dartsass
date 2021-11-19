@@ -1,0 +1,13 @@
+.p-about {
+    text-align: left;
+
+    ul {
+        :first-child {
+            margin-bottom: 30px;
+        }
+    }
+
+    p {
+        margin-top: 30px;
+    }
+}
