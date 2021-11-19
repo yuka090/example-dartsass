@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/ress.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <header class="l-header">
+        <div class="p-header">
+            <a href="#"><img src="img/logo.svg" alt="" class="p-header__logo"></a>
+            <nav class="p-header__nav">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="l-main">
+        <picture class="p-mainvisual" >
+            <source class="p-mainvisual__img" media="(min-width: 600px)" srcset="img/mainvisual-pc.jpg">
+            <img class="p-mainvisual__img" src="img/mainvisual-sp.jpg" alt="">
+        </picture>
+        <section class="c-section">
+            <h2 class="c-section__heading">About</h2>
+            <div class="p-about">
+                <ul>
+                    <li>Xxxxx Ashley</li>
+                    <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
+                    <li>tel: 000-0000-0000</li>
+                    <li>url: www.xxxxxx.jp</li>
+                    <li>mail: xxx@xxxxxx.jp</li>
+                </ul>
+                <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+        </section>
+        <section class="c-section">
+            <h2 class="c-section__heading">Works</h2>
+            <div class="p-works">
+                <div class="p-works__img"><img src="img/works1.jpg" alt=""></div>
+                <div class="p-works__img"><img src="img/works2.jpg" alt=""></div>
+                <div class="p-works__img"><img src="img/works3.jpg" alt=""></div>
+                <div class="p-works__img"><img src="img/works4.jpg" alt=""></div>
+                <div class="p-works__img"><img src="img/works5.jpg" alt=""></div>
+                <div class="p-works__img"><img src="img/works6.jpg" alt=""></div>
+            </div>
+        </section>
+        <section class="c-section">
+            <h2 class="c-section__heading">News</h2>
+            <dl class="p-news">
+                <dt class="p-news__date">2021.11.09</dt><dd class="p-news__text">テキストテキストテキストテキストテキストテキスト</dd>
+                <dt class="p-news__date">2021.11.09</dt><dd class="p-news__text">テキストテキストテキストテキストテキストテキストテキスト</dd>
+                <dt class="p-news__date">2021.11.09</dt><dd class="p-news__text">テキストテキストテキストテキストテキストテキストテキストテキスト</dd>
+                <dt class="p-news__date">2021.11.09</dt><dd class="p-news__text">テキストテキストテキストテキストテキストテキストテキスト</dd>
+                <dt class="p-news__date">2021.11.09</dt><dd class="p-news__text">テキストテキストテキストテキストテキストテキストテキ</dd>
+            </dl>
+        </section>
+        <section class="c-section">
+            <h2 class="c-section__heading">Contact</h2>
+            <form class="p-contact">
+                <dl class="p-contact__info">
+                    <dt><p>NAME</p></dt>
+                    <dd><input type="text"></dd>
+                    <dt><p>E-mail</p></dt>
+                    <dd><input type="text"></dd>
+                    <dt><p>MESSAGE</p></dt>
+                    <dd><textarea name="message"></textarea></dd>
+                </dl>
+                <button class="p-contact__btn"><input type="submit" value="送信"></button>
+            </form>
+        </section>
+    </main>
+    <footer class="l-footer">
+        <p>©️ 2020 My Work</p>    
+    </footer>
+</body>
+</html>
